@@ -1,0 +1,220 @@
+/*
+My Custom CSS
+=============
+
+Author:  Ripon
+Updated: January 2016
+*/
+
+
+/* --------------------------------------
+   Global 
+   -------------------------------------- */
+body {
+    overflow-x: hidden;
+    font-family: "Helvetica Neue", sans-serif;
+}
+.container {
+    font-family: "Helvetica Neue", sans-serif;
+} 
+
+
+
+p {
+    font-size: 18px;
+}
+
+p.small {
+    font-size: 14px;
+    color: gray;
+}
+
+h2 {
+    margin-bottom: 25px;
+    margin-left: 0px;
+    text-decoration: ;
+}
+
+img {
+    margin-bottom: 30px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.navbar {
+    font-weight: 700;
+    background-color: #E6E6E6;
+}
+
+
+.navbar-brand { 
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+#logo{
+    margin-left: 0px;
+    color: red
+}
+
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+    color: black ;
+    font-size: 16px;
+}
+
+
+
+    
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+header {
+    text-align: center;
+    color: black ;
+}
+
+header .container {
+    padding-top: 110px;
+    padding-bottom: 50px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header #discrip {
+    color: #666666;
+    word-spacing: 3px;
+    line-height: 2;
+    ;
+}
+
+.line {
+    margin-top: 40px;
+    max-width: 250px;
+}
+
+
+/*---------------------------------------
+    TECHNICAL SKILLS
+-----------------------------------------*/
+section#technical_skills {
+    background-color: #D6D6D6;
+    padding: 25PX;
+}
+
+
+
+
+/*---------------------------------------
+    Education 
+-----------------------------------------*/
+section#education {
+    padding: 35px;
+}
+
+#para1 {
+    margin: 0px;
+    line-height: 2;
+    font-size: 24px;
+}
+
+
+
+/*---------------------------------------
+    Refference 
+-----------------------------------------*/
+section#reference {
+    padding: 34PX;
+}
+
+#ref {
+    margin-bottom: 50px;
+}
+
+
+p#ref_name {
+    font-size: 14px;
+   
+}
+
+p#ref_discription {
+    font-size: 12px;
+    line-height: 22px;
+    color:gray;
+}
+
+
+/*---------------------------------------
+    Contact
+-----------------------------------------*/
+section#contact{
+    padding:34;   
+}
+
+
+
+
+#bootom_line {
+    margin: 20px;
+}
+
+
+/*---------------------------------------
+    Footer
+-----------------------------------------*/
+
+.footer-below {
+    margin-bottom: 50px;
+}
+
+
+
+
+/*================================================projects.html page styling=============================================*/
+
+#projects1  {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+
+
+#projects3 {
+    margin-top: 50px;
+}
+
+
+
+
+/* --------------------------------------
+   Media queries
+   -------------------------------------- */
+/*media quires for navigation*/
+
+@media(min-width:768px) {
+    .navbar-fixed-top {
+        padding: 25px 0;
+    }
+}
+
+
+
+/*media carousel navigation*/
+/*LATER ON DO MINIMUM SCREEN SIZE*/
+
+
+
+
+
