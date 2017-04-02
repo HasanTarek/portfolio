@@ -30,9 +30,10 @@ p.small {
 }
 
 h2 {
-    margin-bottom: 25px;
-    margin-left: 0px;
-    text-decoration: ;
+    /*margin-bottom: 25px;
+    margin-left: 0px;*/
+    margin: 30px 0px 30px 0px;
+
 }
 
 img {
@@ -116,7 +117,6 @@ section#technical_skills {
 
 
 
-
 /*---------------------------------------
     Education 
 -----------------------------------------*/
@@ -126,8 +126,8 @@ section#education {
 
 #para1 {
     margin: 0px;
-    line-height: 2;
-    font-size: 24px;
+    line-height: 1.5;
+    font-size: 22px;
 }
 
 
@@ -163,9 +163,6 @@ section#contact{
     padding:34;   
 }
 
-
-
-
 #bootom_line {
     margin: 20px;
 }
@@ -179,24 +176,18 @@ section#contact{
     margin-bottom: 50px;
 }
 
-
-
-
-/*================================================projects.html page styling=============================================*/
+/*---------------------------------------
+    Projects Page Styling
+-----------------------------------------*/
 
 #projects1  {
     margin-top: 150px;
     margin-bottom: 50px;
 }
 
-
-
 #projects3 {
     margin-top: 50px;
 }
-
-
-
 
 /* --------------------------------------
    Media queries
@@ -208,11 +199,6 @@ section#contact{
         padding: 25px 0;
     }
 }
-
-
-
-/*media carousel navigation*/
-/*LATER ON DO MINIMUM SCREEN SIZE*/
 
 
 
