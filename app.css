@@ -1,11 +1,3 @@
-/*
-My Custom CSS
-=============
-
-Author:  Ripon
-Updated: January 2016
-*/
-
 
 /* --------------------------------------
    Global 
@@ -65,9 +57,12 @@ section {
 
 #logo{
     margin-left: 0px;
-    color: #333333;
+    color: #2DAC6E;
 }
 
+#pdf {
+    text-decoration: underline;
+}
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
